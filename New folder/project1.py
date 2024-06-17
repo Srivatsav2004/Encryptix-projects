@@ -33,6 +33,7 @@ Model.fit(x_tf,y1)
 potd= Model.predict(x_tf)
 aotd=accuracy_score(y1,potd)
 #print(aotd)
+# you can input any value between the brackets
 input_mail=["Please call our customer service representative on 0800 169 6031 between 10am-9pm as you have WON a guaranteed å£1000 cash or å£5000 prize!"]
 input_data_features=feature_extratcion.transform(input_mail)
 prediction=Model.predict(input_data_features)
